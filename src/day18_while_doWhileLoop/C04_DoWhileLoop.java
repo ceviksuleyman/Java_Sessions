@@ -52,8 +52,8 @@ public class C04_DoWhileLoop {
         }while (sayi%2==0);
 
         /*
-        ==OZET OLARAK==
-        While Loop,dongunu baslangicinda kosulu kontrol eder ve kosul saglanirsa body icindeki kodlari calistirir.
+               ==OZET OLARAK==
+        While Loop,dongunun baslangicinda kosulu kontrol eder ve kosul saglanirsa body icindeki kodlari calistirir.
 
         Do-while loop'ta ise,kosul body icerisindeki kodlar 1 kere calistiktan sonra kontrol edilir.
          */
