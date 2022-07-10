@@ -33,5 +33,17 @@ public class C04_SolaKaydir {
         }
         arr[0]=temp;
         System.out.println(Arrays.toString(arr));
+
+        // verilen bir Array'in tum elemanlarini toplayan bir program yazalim.
+
+        int sayilar[]={9,7,8};
+
+        int toplam=0;
+
+        for (int i = 0; i < sayilar.length ; i++) {
+
+            toplam+=sayilar[i];
+        }
+        System.out.println("elemanlarin toplami: "+toplam);
     }
 }

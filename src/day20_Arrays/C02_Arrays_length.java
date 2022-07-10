@@ -2,7 +2,7 @@ package day20_Arrays;
 
 import java.util.Arrays;
 
-public class C02_length {
+public class C02_Arrays_length {
 
     public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ public class C02_length {
         // 1- direk deger atama yaparak,
         int sayilar[]={1,2,3};
 
-        // 2- deger atamadan sadece uzunluk verek olursa,
+        // 2- deger atamadan sadece uzunluk vererek olursa,
         String harfler[]= new String[4];
 
         System.out.println("sayilar array'inin uzunlugu: "+ sayilar.length );// 3
@@ -24,11 +24,6 @@ public class C02_length {
         System.out.println(harfler[harfler.length-1]);// null
 
         // System.out.println(harfler[5]); // Exception runtime'da olusturuldugu icin calistirildiginda exception verir.
-
-
-
-
-
 
 
     }
