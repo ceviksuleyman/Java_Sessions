@@ -28,16 +28,15 @@ public class C01_Arrays {
         myArray[0]=9;
         myArray[1]=10;
         myArray[2]=11;
+        System.out.println(Arrays.toString(myArray)); // [9, 10, 11]
 
         //Olusturma ve tum index'ler icin deger atamayi tek satirda da yapabiliriz.
-        int myArray2[]={9,10,11};
+        int[] myArray2={9,10,11};
         //-----------------------------------------------------------------------------------------------
 
-
-        int sayilar[] = new int [3];
+        int[] sayilar = new int [3];
 
         System.out.println(sayilar); //  [I@19dfb72a direk sayilar yazarsak Java bize stack'daki referans'i dondurur!
-
         /*
         non-primitive data turundeki datalari her zaman direk yazdiramayiz.
         Array'i yazdirmak istersek Arrays class'indan yardim isteriz.
@@ -50,7 +49,7 @@ public class C01_Arrays {
 
         System.out.println(Arrays.toString(sayilar)); // [5, 3, 10]
 
-        String sinifList[]={"Ali","Ayse","Ahmet"};
+        String[] sinifList={"Ali","Ayse","Ahmet"};
 
         System.out.println(Arrays.toString(sinifList)); // [Ali, Ayse, Ahmet]
 
@@ -60,9 +59,6 @@ public class C01_Arrays {
 
         System.out.println(sinifList[1]); //  Hasan
         System.out.println(sinifList[0]); //  Ali
-
-
-
 
     }
 }
