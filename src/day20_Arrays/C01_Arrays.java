@@ -24,7 +24,7 @@ public class C01_Arrays {
          */
 
         // istersek once olusturup sonra istedigimiz index'ler icin deger atayabiliriz.
-        int myArray[] = new int[3];
+        int [] myArray = new int[3];
         myArray[0]=9;
         myArray[1]=10;
         myArray[2]=11;
