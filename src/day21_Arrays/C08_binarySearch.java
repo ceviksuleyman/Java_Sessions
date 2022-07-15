@@ -7,7 +7,7 @@ public class C08_binarySearch {
     public static void main(String[] args) {
         // binarySearch javada eleman aramanin kisayoludur,ancak binarySearch'un calismasi icin once array'in sirali
         // hale getirilmesi gerekir.
-        // Eger siralama yapmadan binarySearch yaparsaniz sonucu bulmayabilir veya yanlis bulabilir
+        // Eger siralama yapmadan binarySearch yaparsaniz sonucu bulmayabilir veya yanlis bulabilir !!
         String[] harfler = {"Y","B","D","G","O","A"};
 
         String arananHarf = "A";

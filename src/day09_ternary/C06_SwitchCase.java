@@ -1,4 +1,4 @@
-package day09_Ternary;
+package day09_ternary;
 
 
 public class C06_SwitchCase {
