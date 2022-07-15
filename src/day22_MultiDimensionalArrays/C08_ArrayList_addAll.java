@@ -18,11 +18,11 @@ public class C08_ArrayList_addAll {
         sayilar2.add(20);
 
 
+        //addAll() method'u ile bir listenin sonuna veya istedigimiz index'ine baska bir collection ekleyebiliriz.
+
         sayilar1.addAll(sayilar2); // bir List'e diger List'i eklemek icin kullandik
         System.out.println(sayilar1);//[5, 3, 2, 10, 15, 16, 20]
 
-
-        //bir listenin sonuna veya istedigimiz index'ine baska bir collection ekleyebiliriz.
         sayilar1.addAll(1,sayilar2);
         System.out.println(sayilar1);//[5, 10, 15, 16, 20, 3, 2, 10, 15, 16, 20]
 
