@@ -25,8 +25,8 @@ public class C03_ArrayList_indexOf {
         //---------------------------------------------------------------------------------------------------------
         // lastIndexOf() ->
         // indexOf() method'u verilen elemani aramaya 0. index'ten basliyordu,
-        // lastIndexOf() method'u aramaya son index'ten baslar,eger aranan urun zaten 1 tane ise yine ayni index'i verir,
-        // ancak aranan urun 1'den fazlaysa son index'e en yakin olan elemanin index'ini verir.
+        // lastIndexOf() method'u aramaya son index'ten baslar,eger aranan eleman zaten 1 tane ise yine ayni index'i verir,
+        // ancak aranan eleman 1'den fazlaysa son index'e en yakin olan elemanin index'ini verir.
 
         urunler.add("Ikram"); // urunlere bir tane daha Ikram ekledik
         System.out.println(urunler.lastIndexOf("Ikram"));// 4  ve bize sondaki Ikramin index'ini dondurdu !

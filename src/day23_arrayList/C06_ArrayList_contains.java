@@ -15,7 +15,7 @@ public class C06_ArrayList_contains {
         urunler.add("Cay");
 
         // contains() =>
-        // method'u bir objenin list'de varmi diye kontrol eder boolean sonuc dondurur. true/false
+        // method'u bir objeyi list'de varmi diye kontrol eder boolean sonuc dondurur. true/false
         // kullandiktan sonra list'de bir degisiklik olmaz sadece bilgi dondurur.
         System.out.println(urunler.contains("Nutella"));// true
         // list'te olmayan bir urunu sorarsam? Hobby
