@@ -20,7 +20,6 @@ public class C06_CarRunner {
         car1.benzinliArac();
         car1.maxHiz(180);
 
-
         // C05 den object2...
         C05_Car car2 = new C05_Car();
 
