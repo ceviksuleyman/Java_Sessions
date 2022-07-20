@@ -7,11 +7,11 @@ public class C05_Car {
     bir object olusturup burada belirlenen veriable methodlara gore araba uretiriz.
      */
 
-    String marka = "Marka Belirtilmedi.";
-    String model = "Model Belirtilmedi.";
+    public String marka = "Marka Belirtilmedi.";
+    public String model = "Model Belirtilmedi.";
 
-    int yil;
-    int fiyat;
+    public int yil;
+    public int fiyat;
 
     public void benzinliArac(){
 
