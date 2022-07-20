@@ -3,9 +3,9 @@ package day26_constructor;
 public class Student {
 
 
-    String name = "cevik";
-    int age = 15;
-    String phone = "0453433434";
+    String name ;
+    int age ;
+    String phone ;
 
     public Student() {
 

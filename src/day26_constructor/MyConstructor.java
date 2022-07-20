@@ -3,7 +3,7 @@ package day26_constructor;
 public class MyConstructor {
 
 
-    int x ;
+    int x = 5;
     String y = "cevik";
 
     public MyConstructor() {
@@ -26,10 +26,4 @@ public class MyConstructor {
 
     }
 
-    @Override
-    public String toString() {
-        return
-                "x : "+x+
-                "y : "+y;
-    }
 }
