@@ -21,7 +21,7 @@ public class MyConstructor {
     public MyConstructor(int x) {
         this(); // this()bir constructorden digerini cagirmak icin kullanilir
         // cagrildigi constructorun ilk satirina yazilmalidir !!!
-        // bir constructor icinede sadece 1 tane constructor cagrilabilir
+        // bir constructor icinede sadece 1 tane constructor cagrilabilir !!
         System.out.println("-x" + x);
 
     }
