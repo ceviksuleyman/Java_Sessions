@@ -1,8 +1,8 @@
-package day27_staticKeyword;
+package day27_ConsCall_StaticKeyword;
 
-public class C01 {
+public class C03_StaticKeyword {
 
-    /*---------------------- Onceki  Dersten Aklimizda Kalanlar --------------------------------------------
+    /*---------------------- Onceki Dersten Aklimizda Kalanlar --------------------------------------------
     1- Parametreli constructor'lar : Eger default constructor kullanirsak objemizi olusturabilir,ancak tum
     ozellikleri defult olarak gelir.Bu sekilde olusturulan objelere istedigimiz degerleri atayabilmek icin
     tek tek atama yapmamiz gerekir.
@@ -24,7 +24,6 @@ public class C01 {
     int rakam = 5;
 
     public static void main(String[] args) {
-
            /*
         Class level'da iki tur variable olusturabiliriz.
            -Static(Class) variable
@@ -37,26 +36,26 @@ public class C01 {
         * Static variable'lar class variable'lar class variable'i oldugu icin herhangi bir satirda,static variable'in
         degerini bulmak icin CLASS'IN BASINDAN itibaren kod incelenmelidir.
          */
-        C01 obj1 = new C01();  // obje1
+        C03_StaticKeyword obj1 = new C03_StaticKeyword();  // obje1
 
         System.out.println("obj1'in rakam degeri : "+obj1.rakam); // 5
         System.out.println("obj1'in sayi degeri : "+sayi); //10  obje olusturmadan ulasabiliriz sayi zaten static!
 
-        obj1.rakam +=1;// 5 + 1 = 6
-        sayi += 1;// 10 + 1 = 11
+        obj1.rakam +=1;// 5 + 1 = 6 // instance(obje) variable'a obje kullanmadan islem yapamazsin
+        sayi += 1;// 10 + 1 = 11 static (class) variable oldugu icin obje olusturmadan islem yapabilirim.
 
         System.out.println("1 artirdiktan sonra obje1'in rakam degeri : "+obj1.rakam);// 6
         System.out.println("1 artirdiktan sonra obje1'in sayi degeri : "+sayi);// 11
 
 
-        C01 obj2 = new C01();  // obje2
+        C03_StaticKeyword obj2 = new C03_StaticKeyword();  // obje2
 
         System.out.println("obje2'in rakam degeri : "+obj2.rakam);// 5
         System.out.println("obje2'in sayi degeri : "+sayi); //obj2.sayi yazsak da kabul eder. 11
 
 
-        obj2.rakam++;// 5 + 1 = 6
-        sayi++;// 11 + 1 = 12
+        obj2.rakam++;// 5 + 1 = 6 instance(obje) variable her objenin basindan itibaren bakilir
+        sayi++;// 11 + 1 = 12   static variable class'in en basindan kontrol edilir.
 
         System.out.println("1 artirdiktan sonra obje2'nin rakam degeri : "+obj2.rakam);// 6
         System.out.println("1 artirdiktan sonra obje2'nin sayi degeri : "+sayi);// 12
