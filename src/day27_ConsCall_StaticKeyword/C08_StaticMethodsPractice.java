@@ -1,12 +1,12 @@
 package day27_ConsCall_StaticKeyword;
 
-public class C08_StaticMethods {
+public class C08_StaticMethodsPractice {
 
     int number;
     String name;
     static String college = "ITS";
 
-    C08_StaticMethods(int r,String n,String college){
+    C08_StaticMethodsPractice(int r, String n, String college){
         this.number = r;
         this.name = n;
         this.college = college;
@@ -15,8 +15,8 @@ public class C08_StaticMethods {
 
     public static void main(String[] args) {
 
-        C08_StaticMethods s1 = new C08_StaticMethods(111,"Karan","MIT");
-        C08_StaticMethods s2 = new C08_StaticMethods(222,"Aryan","Harvard");
+        C08_StaticMethodsPractice s1 = new C08_StaticMethodsPractice(111,"Karan","MIT");
+        C08_StaticMethodsPractice s2 = new C08_StaticMethodsPractice(222,"Aryan","Harvard");
 
         System.out.println(s1.number);
         System.out.println(s2.number);
