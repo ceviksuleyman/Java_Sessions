@@ -1,4 +1,4 @@
-package day27_ConsCall_StaticKeyword;
+package day27_consCall_StaticKeyword;
 
 public class C07_StaticMethodsPractice {
 
