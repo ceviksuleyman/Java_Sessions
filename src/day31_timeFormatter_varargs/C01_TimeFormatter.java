@@ -5,7 +5,7 @@ import java.time.format.DateTimeFormatter;
 
 public class C01_TimeFormatter {
 
-     /*-------------------- GUN  -----------------------------------------
+        /*-------------------- GUN  -----------------------------------------
 		 d        : basta 0 varsa onu yazmadan gun numarasi
 		 dd       : tek haneli gunleri 01 gibi basina sifir yazarak gun numarasi
 		 DDD      : yilin kacinci gunu oldugunu yazar
