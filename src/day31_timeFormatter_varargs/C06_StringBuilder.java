@@ -8,7 +8,7 @@ public class C06_StringBuilder {
     bu da StringBuilder sinifini hafiza kullanimi olarak String sinifinin onune gecirir.
 
     => StringBuilder thread-safe degildir,yani synchronized degildir.Thread'li bir islem kullanilacaksa StringBuilder
-    kullanilmasi guvenlidir.
+    kullanilmasi guvenli degildir.
 
     NOTE => StringBuffer ,StringBuilder'a benzer. StringBuilder,StringBuffer'dan hizlidir.
     Multi-thread icin StringBufffer kullanilir.
