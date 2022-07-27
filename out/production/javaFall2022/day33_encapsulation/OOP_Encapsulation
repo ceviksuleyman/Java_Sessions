@@ -49,6 +49,8 @@
  8- getter methodlar icin naming convention nedir?
  => boolean data turu icin "is" ile diger data turleri icin "get" ile baslar.
 
+ 9- getter and setter method'lari "Java Beans" olarak adlandirilir.
+
 
 
  => ---------------------------------- Access Modifier -------------------------------------------------------

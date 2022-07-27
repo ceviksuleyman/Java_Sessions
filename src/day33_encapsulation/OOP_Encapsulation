@@ -25,13 +25,14 @@
 
 
  1- Encapsulation nedir?
- => hassas datalari korumak icin kullanilan data saklama yontemi
+ => Data hiding ; hassas datalari korumak icin kullanilan data saklama yontemi,bir class'daki varaible'lara
+ erisimi yetkilendirmek.
 
  2- datalari nasil saklariz?
  => datalari private access modifier kullanarak saklariz.
 
  3- saklanan datalara diger class'lardan nasil ulasabiliriz?
- => getter ve setter methodlarini kullanarak
+ => getter ve setter method'larini kullanarak
 
  4- getter() method'u ne yapar?
  => saklanan datalari okumamizi saglar
