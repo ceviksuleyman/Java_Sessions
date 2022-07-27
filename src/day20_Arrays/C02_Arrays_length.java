@@ -9,10 +9,10 @@ public class C02_Arrays_length {
         // iki sekilde Array olusturabilir.
 
         // 1- direk deger atama yaparak,
-        int sayilar[]={1,2,3};
+        int[] sayilar ={1,2,3};
 
         // 2- deger atamadan sadece uzunluk vererek olursa,
-        String harfler[]= new String[4];
+        String[] harfler = new String[4];
 
         System.out.println("sayilar array'inin uzunlugu: "+ sayilar.length );// 3
         // String length() method'unda parantez var, array'de yok.

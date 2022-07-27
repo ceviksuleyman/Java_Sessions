@@ -11,7 +11,7 @@ public class C04_SolaKaydir {
            [1,2,3]  ise output [2,3,1]
           */
 
-        int arr[]={1,2,3};
+        int[] arr ={1,2,3};
 
         int temp=arr[0];
 
@@ -36,7 +36,7 @@ public class C04_SolaKaydir {
 
         // verilen bir Array'in tum elemanlarini toplayan bir program yazalim.
 
-        int sayilar[]={9,7,8};
+        int[] sayilar ={9,7,8};
 
         int toplam=0;
 

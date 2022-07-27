@@ -1,0 +1,71 @@
+
+ => ----------------------------- Encapsulation ------------------------------------
+ 1- OOP(Object Oriented Programming) Concept : complex uygulamari olusturan minik parcalar hazirlayip,
+ sonra bunlari birlestirmek olarak tanimlayabiliriz.
+
+ 2- yani ilk once obje olusturmak icin kaliphaneye yani class'lara ihtiyacimiz var.
+
+ 3- mesela bir okul uygulamasi dusunursek ogretmen,ogrenci,personel,ders gibi class'lar olusturup,
+ burada ogretmenlerin,ogrencilerin...ortak ozelliklerini variable ve method'larla belirleyip,sonra hangi class'da
+ calisirsak calisalim ogretmen,ogrenci... objeleri olusturabiliriz.
+
+ 4- Bu noktada oncelikle cozmemiz gereken konu,kimin hangi bilgilere,hangi olcude erisebilecegi ve bu bilgileri
+ degistirebilecegidir.
+
+ 5- Erisim sinirlama ve erisim yetkilendirme konusunda ilk aklimiza gelecek Access Modifier'dir.
+
+ 6- Access Modifier sayesinde herhangi bir class uyesine kimlerin erisebilecegini belirleyebiliriz.
+
+ 7- Yalniz access modifier erisim yetkisini belirlerken okuma ve degistirme yetkilerini ayiramaz
+
+ 8- Bazen okuma ve yazma yetkilerini spesifik olarak belirlemek isteriz bu konuda access modifier yetersiz kalir.
+
+ 9- Bize yeni bir cozum lazim.. bu cozumun adi  Encapsulation!!!
+
+
+
+ 1- Encapsulation nedir?
+ => hassas datalari korumak icin kullanilan data saklama yontemi
+
+ 2- datalari nasil saklariz?
+ => datalari private access modifier kullanarak saklariz.
+
+ 3- saklanan datalara diger class'lardan nasil ulasabiliriz?
+ => getter ve setter methodlarini kullanarak
+
+ 4- getter() method'u ne yapar?
+ => saklanan datalari okumamizi saglar
+
+ 5- setter() method'u ne yapar?
+ => saklanan datalari obje uzerinden update edebilmemizi saglar.
+
+ 6- Immutable class nedir?
+ => encapsule edilen bir class'da sadece getter methodu olusturursak datalari okuyabiliriz ama
+ degistiremeyiz bu tur class'lara immutable class denir.
+
+ 7- setter methodlar icin naming convention nedir?
+ => tum data turleri icin isimler "set" ile baslar.
+
+ 8- getter methodlar icin naming convention nedir?
+ => boolean data turu icin "is" ile diger data turleri icin "get" ile baslar.
+
+
+
+ => ---------------------------------- Access Modifier -------------------------------------------------------
+ Java bir method'u ,variable'i ya da class'i olustururken bu ogelere kimlerin erisebilecegini belirtme olanagi tanir.
+
+ Bu eylemi gerceklestirebilmek icin kullanilan anahtar kelimelere Access Modifier(Erisim Belirleyiler) adini veririz.
+
+ Java'da 4 farkli access modifier vardir.
+
+ 1- Private => sadece icinde bulundugu class'dan erisilebilir.
+
+ 2- Default => Eger herhangi bir Access modifier yazmazsak,Java Access modifier'i default olarak kabul eder.
+ icinde bulundugu package'dakiler ulasabilir.
+
+ 3- Proteced => icinde bulundugu class'dakiler ve package'dakilerden ulasilabilir,ve baska package icindeki
+ child class'larda kullanilabilir.
+
+ 4- public => heryerden erisilebilir
+
+ NOTE => Class'lar icin sadece public veya default kullanilabilir. Class'lar private veya protected OLAMAZLAR.

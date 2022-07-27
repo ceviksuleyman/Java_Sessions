@@ -6,7 +6,7 @@ public class C03_ElemanlariYazdirma {
 
     public static void main(String[] args) {
 
-        int sayilar[]={1,2,3,4,5,6,7};
+        int[] sayilar ={1,2,3,4,5,6,7};
         //array'in tamamini yazdiralim.
         System.out.println(Arrays.toString(sayilar)); // [1, 2, 3, 4, 5, 6, 7]
 
