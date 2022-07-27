@@ -16,7 +16,7 @@ public class C02_append {
 
         System.out.println("sb = " + sb);
 
-        sb.insert(22,"valla valla",5,11);
+        sb.insert(22,"valla valla ",6,12);
 
         System.out.println("sb = " + sb); // Java herseyi dusunmus, valla daha ne yapsin?
 
