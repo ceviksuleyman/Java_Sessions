@@ -1,0 +1,20 @@
+
+
+     => ---------------------------------- Access Modifier -------------------------------------------------------
+     Java bir method'u ,variable'i ya da class'i olustururken bu ogelere kimlerin erisebilecegini belirtme olanagi tanir.
+
+     Bu eylemi gerceklestirebilmek icin kullanilan anahtar kelimelere Access Modifier(Erisim Belirleyiler) adini veririz.
+
+     Java'da 4 farkli access modifier vardir.
+
+     1- Private => sadece icinde bulundugu class'dan erisilebilir.
+
+     2- Default => Eger herhangi bir Access modifier yazmazsak,Java Access modifier'i default olarak kabul eder.
+     icinde bulundugu package'dakiler ulasabilir.
+
+     3- Proteced => icinde bulundugu class'dakiler ve package'dakilerden ulasilabilir,ve baska package icindeki
+     child class'larda kullanilabilir.
+
+     4- public => heryerden erisilebilir
+
+     NOTE => Class'lar icin sadece public veya default kullanilabilir. Class'lar private veya protected OLAMAZLAR.
