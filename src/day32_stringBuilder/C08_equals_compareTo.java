@@ -14,6 +14,7 @@ public class C08_equals_compareTo {
 
         // StringBuilder'da equals method'u ancak ayni obje olursa true doner.
         // String'deki gibi dusunmemek gerek..
+        // StringBuilder ve String'de == yapilamaz !!!!!!!! CTE
         System.out.println("sb1.equals(sb1) = " + sb1.equals(sb1)); // true
 
         System.out.println("sb1.equals(str) = " + sb1.equals(str)); // false

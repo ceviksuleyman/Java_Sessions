@@ -6,10 +6,9 @@ public class Ogretmen {
     private String soyisim ;
     private String brans ;
      /*
-    Bazen de yetkileri sinirlandirmak degil de yapilan isi daha iyi tanimlamak icin
-    encapsulation kullanilir.
-    Bu yaklasimi kullanan class'larda tum variable'lar private yapilip hepsi icin
-    getter ve setter olusturulur.
+    Bazen de yetkileri sinirlandirmak degil de yapilan isi daha iyi tanimlamak icin encapsulation kullanilir.
+
+    Bu yaklasimi kullanan class'larda tum variable'lar private yapilip hepsi icin getter ve setter olusturulur.
      */
 
     public String getIsim() {
