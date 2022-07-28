@@ -26,8 +26,9 @@ public class Isci extends Personel {
 
         //Kendi class'imizda isim variable'i yok onun icin parent'a gidiyoruz.
         isci1.isim="Murtaza";
+        isci1.departman = "Muhasebe";
         System.out.println(isci1.isim);// Murtaza
-
+        System.out.println(isci1.departman); // Muhasebe
 
         System.out.println(isci1.personelNo); // 1001  class icinde varsa  onu yoksa parent'ten kullanir.
 
@@ -38,13 +39,13 @@ public class Isci extends Personel {
 
 
 
-        isci1.ozelSigorta(); // bu class'da olusturdugumuz method
+        isci1.ozelSigorta(); // iscilerden isteyene %50 indirimli ozel sigorta yaptirilir
 
-        isci1.fazlaMesaiUcreti(); // parent class'dan kullandigimiz method
+        isci1.fazlaMesaiUcreti(); // Personel fazla mesai ucretini statusune gore alir
 
-        isci1.departman = "Muhasebe";
 
-        System.out.println(isci1);
+
+        System.out.println(isci1); // alt olusturdugum toString kullanmak icin
 
     }
 
