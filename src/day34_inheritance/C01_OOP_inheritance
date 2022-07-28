@@ -1,0 +1,56 @@
+
+    ---------------------------> Inheritance <-------------------------------------------------
+
+    => bir objenin,class'in baska bir objenin,class'in tum ozelliklerini
+    ve davranislarini elde ettigi mekanizmadir.
+
+    => inherintance'in arkasindaki fikir,daha onceden olusturulmus Class'larin uzerine yeni
+    Class'lar olusturabilmemizdir.
+
+    => inheritance sayesinde yeni olusturdugumuz bir class'in var olan bir class'in tum
+    method'larini ve variable'larini kullanmasini saglayabiliriz.
+
+    => Inheritance bu islemin adidir.Inheritance sayesinde child class, parent class'daki
+    public veya protected primitive datalari,objectleri veya method'lari problemsiz sekilde
+    kullanabilir.
+
+    => Inheritance sayesinde yazilan bir kod'un tekrar tekrar kullanilabilmesi(reusability)
+    mumkun olur.
+
+    => Geneli kapsayan class uyeleri parent class'a,daha spesifik olanlar ise child class'larda
+    olusturulur.
+
+    NOTE1 => Child class'lar public ve protected datalari problemsiz bir sekilde inherit edebilir
+    NOTE2 => Private data'lar inherit edilemez.
+    NOTE3 => Default data'lar child ve parent ayni package'da olduklarinda inherit edilebilirler
+    NOTE4 => Static Methods veya variable'lar inherit EDILEMEZ !!
+
+    ---------------------> Inheritance Turleri <-----------------------------------------
+    1 - Single Inheritance
+    => Java single inheritance kabul eder.Bir child class'in sadece bir tane parent class'i olabilir.
+
+    2 - Multilevel Inheritance
+    => Java inheritance zincirini kabul eder.Bir child class'in sadece parent class'i olabilir
+    (ve onun parent class zinciri).
+
+    3 - Hierarchical Inheritance
+    => Birden fazla class ayni class'i parent olarak kullanabilir.
+
+    * Java'da butun class'lar Object Class'dan inherit edilir.
+    Object Class butun class'larin parent'idir ve Object Class parent'i olmayan tek class'dir.
+
+
+    -------------------> Nicin inheritance kullaniriz ? <----------------------------------------
+
+    => inheritance sayesinde parent olarak tanimlanan class(ve onun parent class'larindaki)
+    protected/public class uyelerini kazanabiliriz(reusability).
+
+    --------------------> Inheritance'in Faydalari <---------------------------------------------
+    1- Tekrardan kurtuluruz
+    2- Daha az kod yazarak islemlerimizi yapabiliriz
+    3- Kolayca update yapabiliriz
+    4- Application'in bakimi ve surdurulmesi(maintenance) kolaylasir.
+
+     1- Child Classlar parent classlar daki tüm özelliklere sahiptir
+     2- Child Classlar parent classlardaki bazı özellikleri kendine uyarlayabilir
+     3- Child classlar parent classlarda olmayan bazı extra özelliklere sahip olabilir.

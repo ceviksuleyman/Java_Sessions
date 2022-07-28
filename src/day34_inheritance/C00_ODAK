@@ -1,0 +1,23 @@
+
+
+=>----------------------------- Onceki Dersten Aklimizda Kalanlar ----------------------------------------
+1 - OOP concept bir class'dan olusturulan objelerin proje kapsaminda istendigi gibi kullanilmasina dayanir.
+
+2 - Proje kapsamindaki class'larin birbirine erisimini access modifier ile yapabilir.Ancak access modifier set ve get
+ozelliklerini birbirinden ayiramaz.Yetki verirse hem set, hem de get yetkisi verirken,yetki vermediginde ne set
+ne de get yetkisi olur
+
+3 -Encapsulation,bu noktada devreye girer, bir class'daki variable'lardan istedigimize set,istedigimize get,istedigimize
+de hem set hem de get yetkisi vermemize olanak tanir.
+
+4 - Encapsulation 2 adimdan olusur.
+   1.Encapsule etmek istedigimiz variable'lari private yapin.
+   2.Private yaptigimiz icin,bulundugu class disindan ulasilmasi mumkun olmayan variable'lardan set yetkisi vermek
+   istedigimize setter,get yetkisi vermek istedigimize getter method'u olusturalim.
+
+5 - Bazen de yetki sinirlamak yerine yapilan islemin(set veya get) daha anlasilir bir sekilde olmasi icin de getter ve
+setter method'lari kullanilabilir.Bu durumda tum instance variable'lari private yapip, hepsi icin hem getter,
+hem de setter method'u olustururuz.
+
+6 - Teknik acidan 5. maddedeki islem variable'i public yapmak ile aynidir.
+
