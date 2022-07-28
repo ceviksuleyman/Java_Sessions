@@ -45,7 +45,7 @@ public class Isci extends Personel {
 
 
 
-        System.out.println(isci1); // alt olusturdugum toString kullanmak icin
+        System.out.println(isci1); // altta olusturdugum toString kullanmak icin
 
     }
 
