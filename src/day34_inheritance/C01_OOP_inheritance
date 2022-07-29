@@ -1,7 +1,7 @@
 
     ---------------------------> Inheritance <-------------------------------------------------
 
-    => bir objenin,class'in baska bir objenin,class'in tum ozelliklerini
+    => bir obje'nin/class'in baska bir obje'nin/class'in tum ozelliklerini
     ve davranislarini elde ettigi mekanizmadir.
 
     => inherintance'in arkasindaki fikir,daha onceden olusturulmus Class'larin uzerine yeni
