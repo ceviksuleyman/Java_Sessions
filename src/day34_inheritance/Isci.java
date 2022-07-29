@@ -4,11 +4,16 @@ public class Isci extends Personel {
 
     /*
    => Normal hayatimizda parent cocuk sahibi olmaya karar verebilir.
+
    => Java'da ise child class'lar ozelliklerini inherit etmek istedikleri class'i kendilerine parent edinirler.
+
    => mesela isci class'ini olusturunca nelere ihtiyaci var diye dusunsek Personel class'indaki tum variable ve
    method'lara ihtiyaci oldugunu gorebiliriz.
+
    => Bu durumda yeniden o variable ve method'lari olusturmak yerine Personel class'ini kendimize parent ediniriz.
+
    => Bir class'i parent edinmek icin extends keyword kullanmaliyiz  public class Isci extends Personel{}
+
    => Bir class baska bir class'i parent edindiginde,
    1. parent class'daki tum ozelliklere(variable , Method) otomatik olarak sahip olur.
    2. parent class'daki ozelliklerden bazilarini kendine uyarlayabilir.
