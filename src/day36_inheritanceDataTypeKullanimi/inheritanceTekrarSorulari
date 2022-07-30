@@ -1,0 +1,43 @@
+
+1 - inheritance'in avantajlari nelerdir ?
+  => Reusability
+  => Maintenance
+  => Less Code
+
+2 - Bir class'a Parent Class olusturmak icin Syntax nedir ?
+  => public class ChildClassIsmi extends ParentClassIsmi
+
+
+3 - Hangi access modifier'lar inherit edilebilir ?
+  => public ve protected olanlar heryerden, default olanlar ayni package'dan inherit edilebilir.
+
+
+4 - super() ile this ()'in farki nedir ?
+  => super() parent class'dan, this() ise icinde bulunulan class'dan constructor cagirmak icin kullanilir.
+
+
+5 - super() ile super.'nin farki nedir ?
+  => super() parent class'dan constructor, super. ise variable veya method cagirmak icin kullanilir.
+
+
+6 - this() ile this.'nin farki nedir ?
+  => this() constructor, this. ise class variable veya method'u cagirmak icin kullanilir.
+
+
+7 - super. ile this.'nin farki nedir ?
+  => super. parent class'dan variable veya method cagirmak icin kullanilir, this ise icinde bulunulan class'da
+class level variable veya method'lari cagirmak icin kullanilir.
+
+  => this. ile parent class'dan da variable veya method cagrilabilir ancak ayni isimde bir variable/method
+hem icinde bulunulan class'da hem de parent class'da olursa, this parent class'da olani degil icinde bulunulan
+class'dakini cagirir.
+Emin olmak icin parent class icin super. kullaniriz.
+
+
+8 - super() ve this() bulunduklari constructor'da ilk sirada olmalidir. True
+
+
+9 - super() ve this() bir constructor'da sadece 1 kere kullanilabilir. True
+
+
+10 - super() ve this() birlikte ayni constructor'da kullanilabilir. false !

@@ -14,8 +14,5 @@ public class DizelCorolla extends Corolla {
     public static void main(String[] args) {
 
         DizelCorolla obje1 = new DizelCorolla("murtaza");
-
-
-
     }
 }
