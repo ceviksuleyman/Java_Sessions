@@ -1,0 +1,23 @@
+---------------------------> Onceki Dersten Aklimizda Kalanlar <----------------------------------------------
+
+1 - Java'da inheritance, yeni olusturdugumuz bir class'a istedigimiz ozellikleri barindiran eski class'lardan
+herhangi birini parent tanimlayarak,parent class'daki tum ozellikleri child class'in kullanabilmesi demektir.
+
+2 - Child class, parent class'daki ozellikleri aynen kullanabilir,kendisine uyarlayabilir veya parent class'da
+olmayan yeni ozellikler ekleyebilir. Ancak parent class'tan herhangi bir variable veya method'u reddedemez.
+
+3 - Normal hayatimizdan farkli olarak Java da parent child edinmez, bunun yerine child class'lar istedikleri bir
+class'i extends keyword ile parent edinebilirler.
+
+4 - Java multi-inheritance kabul etmez, cunku parent class birden fazla olursa Java parent class'larda ortak
+ozelliklerden hangisini alacagini bilemez, Java'da belirsizlige yer yoktur.
+    Kisaca her child class'in sadece 1 tane parent class'i olabilir ,diyebiliriz.
+
+5 - Birden fazla class'daki ozellikleri inherit etmek istedigimizde multi-inheritance yerine, multi-level  inheritance
+kullaniriz. Yani bir class'in bir parent'i,parent class'in da bir parent'i, onun da...
+
+6 - Bir class'i birden fazla child class inherit edebilir.(Hierarchical)
+
+7 - Java'da IS-A relation child'dan parent'a, HAS-A relation ise parent'dan child'e dogru olur.
+
+8 - Hiyerarsik bir inheritance'da en genel ozellikler en parent'ta, en spesifik ozellikler ise en child'dadir.

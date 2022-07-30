@@ -26,7 +26,7 @@ public class C07_delete {
 
         }
 
-        //socrarive soru Interview
+        //socrative soru Interview
         StringBuilder sb1 = new StringBuilder("OCAJP8");
 
         sb1.subSequence(2, 4);
