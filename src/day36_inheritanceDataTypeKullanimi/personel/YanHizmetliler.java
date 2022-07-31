@@ -33,9 +33,8 @@ public class YanHizmetliler extends Muhasebe{
         aranan ozellik bulunamazsa parent class'lara bakilir,orada da bulamazsak CTE verir.
 
         3 - Eger aranan ozellik variable ise buldugumuz ilk degeri yazdiririz.
-        Aranan ozellik method ise, degeri yazdirmadan once
-        override edilmis mi diye kontrol etmemiz gerekir.
-        Eger override edildiyse en guncel degeri yazdiririz.
+        * Aranan ozellik method ise, degeri yazdirmadan once override edilmis mi diye kontrol etmemiz gerekir.
+        * Eger override edildiyse en guncel degeri yazdiririz.
          */
 
         Muhasebe yanHizmetli1 = new YanHizmetliler();
@@ -43,7 +42,7 @@ public class YanHizmetliler extends Muhasebe{
         System.out.println("yanHizmetli1.gunlukMesai = " + yanHizmetli1.gunlukMesai); // 8 Muhasebe Parentten
         System.out.println("yanHizmetli1.saatUcreti = " + yanHizmetli1.saatUcreti);// 10 Muhasebe
 
-        yanHizmetli1.maas();// overriding Muhasebeden degil bu class'takini calistirdi. YanHizmetliler : 2160 maas alir.
+        yanHizmetli1.maas();//YanHizmetliler : 2160 maas alir.Overriding Muhasebeden degil bu class'takini calistirdi.
         yanHizmetli1.ozelSigorta();//Isteyen calisanlara %50 indirimli ozel sigorta yapilir. Muhasebeden
         yanHizmetli1.sigorta();// Tum personelimize sigorta yapilir. Personel
 
@@ -52,6 +51,8 @@ public class YanHizmetliler extends Muhasebe{
         System.out.println("yanHizmetli1.departman = " + yanHizmetli1.departman);// Personel
 
         // System.out.println(yanHizmetli1.issizlikSigortasi); aramaya muhabeden basladigimiz icin
+        // kendi class'inda olmasina ragmen CTE verir cunku aramaya Muhasebeden basladi ve onun parent'i
+        // Personel'e bakti orda da yok geriye donuk kontrol edemeyecegi icin hata verir.
 
     }
 }

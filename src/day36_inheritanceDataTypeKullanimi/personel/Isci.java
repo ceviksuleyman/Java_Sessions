@@ -52,8 +52,9 @@ public class Isci extends Muhasebe{
         //System.out.println("isci2.gunlukMesai = " + isci2.gunlukMesai); // Personelde gunlukmesai yok CTE
         //System.out.println("isci2.saatUcreti = " + isci2.saatUcreti);// Personelde saatUcreti yok CTE
 
-        isci2.maas();//Personel minimum : 2400 maas alir. normalde Personel Class'indan almasi
-        //gerekirdi Muhasebeden aldi bu sonraki class'da aciklanacak
+        isci2.maas();//Personel minimum : 2400 maas alir. normalde Personel Class'indan almasi (Override)
+                     //gerekirdi Muhasebeden aldi bu sonraki class'da aciklanacak(YanHizmetliler Class)
+
         //isci2.ozelSigorta();// Personelde ozelSigorta yok CTE
         isci2.sigorta();// Tum personelimize sigorta yapilir.
 
