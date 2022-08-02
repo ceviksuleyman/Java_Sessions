@@ -1,0 +1,61 @@
+
+======================> Method Overriding Nedir ? <====================================
+-> Parent class'da varolan bir method'u method signature'ini degistirmeden, method body'sini
+degistirerek kullanmaya Method Overriding denir.
+
+==================> Method Overloading ve Overriding arasinda en temel fark ? <=================
+-> Overloading'de ayni isimde method olusturabilmek icin method signature'i degistirmek zorundayiz.
+-> Overriding de ise method signature kesinlikle degistirilmemelidir ki uzerine yazabilsin.
+Degistirilse overriding olmaz iki ayri method olur.
+
+===================> Method Overriding Nicin Kullanilir ? <======================================
+-> Overriding uygulayarak, child class'in parent class'daki method'u kendine uyarlayarak(implement)
+kullanmasini saglamis oluruz.
+
+Parent class'daki -> Overridden Method = Gecersiz Kilinan
+Child class'daki -> Overriding Method
+
+================= Overriding Kurallari ============================
+1 - Method signature'i(isim ve parametreler) ayni olmalidir.
+2 - Child class'daki method'un(overriding method) Access Modifier'i parent class'daki method'un(overridden)
+modifier'indan daha dar OLAMAZ.
+3 - Overriding method covariant return type kullanmalidir.
+   => Overriding method return type'i overridden method'un return type ile ayni olabilir.
+   => Eger ikisi ayni degilse parent class(overridden)'daki return type ile child class(overriding)'daki
+   return type arasinda IS-A RELATION olmalidir.(covariant return types)
+   Ornek: Parent Object child String olabilir, parent String child Object OLAMAZ. Child daraltamaz!
+4 - private,static and final method'lar overriding yapilamazlar.
+
+===> 5 ve 6 sonraki konularda detayli anlatilacak
+
+5 - Child class'daki method(overriding method),parent class'daki method'un(overridden method) throw edip etmedigine
+bakmazsizin compile time exception throw edebilir.Ancak parent class'da throw edilen exception'dan daha genis olamaz.
+6 - Eger abstract olmayan bir class abstract class'a extends ediyorsa veya interface'i implement ediyorsa
+abstract method'larin tamami override edilmelidir.
+
+Polymorphism => ayni isimdeki method'lari farkli sekillerde kullanmak denilebilir (Overloading,Overriding)
+
+=================================> Overloading Vs Overriding <=============================
+1 - Overloading'de method signature degisir,Overriding'de degismez.
+2 - Overloading'de body istenirse degistirilebilir,Overriding'de body %99 degistirilir.
+3 - final,static ve private method'lar Overload edilebilir, Override edilemez.
+4 - Overloading Compile Time Polymorphism(static)'dir, Overriding ise Run Time Polymorphism(dynamic)'dir.
+5 - Overloading'de inheritance gerekmez, Overriding'de gerekir.
+6 - Overloading'de istedigimiz sekilde Access Modifier ve return type kullanabiliriz ama Overriding'de
+Access Modifier ve return type kullanmanin belli kurallari vardir.
+
+
+=============> Tekrar Sorulari <=================================
+1 - method signature nedir? Hangi method'lar javaya gore aynidir?
+ => Method signature "method ismi" ve "parametre listesi" nden olusur.
+ => signature ayni olan method'lar javaya gore ayni method'lardir.
+
+2 - Polymorphism nedir?
+ => Overloading ve Overriding'in birlesimidir.
+
+3 - Overloading ve Overriding'in farki nedir?
+ => Overloading'de sadece parametreler degisir, Overriding'de signature'a dokunulmaz sadece body degisir
+
+4 - Overriding'in faydasi nedir ?
+ => Coklu uygulama ,reusability
+
