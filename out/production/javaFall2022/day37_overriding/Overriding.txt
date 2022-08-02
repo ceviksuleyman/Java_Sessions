@@ -20,6 +20,10 @@ Child class'daki -> Overriding Method
 2 - Child class'daki method'un(overriding method) Access Modifier'i parent class'daki method'un(overridden)
 modifier'indan daha dar OLAMAZ.
 3 - Overriding method covariant return type kullanmalidir.
+   => Overriding method return type'i overridden method'un return type ile ayni olabilir.
+   => Eger ikisi ayni degilse parent class(overridden)'daki return type ile child class(overriding)'daki
+   return type arasinda IS-A RELATION olmalidir.(covariant return types)
+   Ornek: Parent Object child String olabilir, parent String child Object OLAMAZ. Child daraltamaz!
 4 - private,static and final method'lar overriding yapilamazlar.
 
 ===> 5 ve 6 sonraki konularda detayli anlatilacak
@@ -39,4 +43,19 @@ Polymorphism => ayni isimdeki method'lari farkli sekillerde kullanmak denilebili
 5 - Overloading'de inheritance gerekmez, Overriding'de gerekir.
 6 - Overloading'de istedigimiz sekilde Access Modifier ve return type kullanabiliriz ama Overriding'de
 Access Modifier ve return type kullanmanin belli kurallari vardir.
+
+
+=============> Tekrar Sorulari <=================================
+1 - method signature nedir? Hangi method'lar javaya gore aynidir?
+ => Method signature "method ismi" ve "parametre listesi" nden olusur.
+ => signature ayni olan method'lar javaya gore ayni method'lardir.
+
+2 - Polymorphism nedir?
+ => Overloading ve Overriding'in birlesimidir.
+
+3 - Overloading ve Overriding'in farki nedir?
+ => Overloading'de sadece parametreler degisir, Overriding'de signature'a dokunulmaz sadece body degisir
+
+4 - Overriding'in faydasi nedir ?
+ => Coklu uygulama ,reusability
 

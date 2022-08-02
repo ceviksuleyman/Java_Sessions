@@ -23,7 +23,7 @@ modifier'indan daha dar OLAMAZ.
    => Overriding method return type'i overridden method'un return type ile ayni olabilir.
    => Eger ikisi ayni degilse parent class(overridden)'daki return type ile child class(overriding)'daki
    return type arasinda IS-A RELATION olmalidir.(covariant return types)
-   Ornek: Parent Object child String olabilir, parent String child Object OLAMAZ. Child daraltamaz!
+   Ornek: Parent Object child String olabilir, parent String child Object OLAMAZ.Parent'in daha kapsamli olmasi gerekli!
 4 - private,static and final method'lar overriding yapilamazlar.
 
 ===> 5 ve 6 sonraki konularda detayli anlatilacak

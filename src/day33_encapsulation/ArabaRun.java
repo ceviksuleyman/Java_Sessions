@@ -23,10 +23,10 @@ public class ArabaRun {
          2.adim=> set yetkisi icin setter, get yetkisi icin getter methodlari(public) olusturalim */
 
         araba1.setModel("corolla");// model olarak corollayi atadik
-        // modeli yazdirma imkanimiz yok,cunku getter method'u yok
+                                   // modeli yazdirma imkanimiz yok,cunku getter method'u yok
 
         System.out.println("araba1.getYakit() = " + araba1.getYakit());// Eletrikli
-        // yakiti degistiremeyiz cunku setter method'u yok.
+                                              // yakiti degistiremeyiz cunku setter method'u yok.
 
     }
 }
