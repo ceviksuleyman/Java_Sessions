@@ -29,11 +29,9 @@ public class C08_equals_compareTo {
 
         System.out.println("sb1.compareTo(s2) = " + sb1.compareTo(sb2));// 0
 
-        StringBuilder sb3 =new StringBuilder("Jave");
+        StringBuilder sb3 = new StringBuilder("Jave");
 
         System.out.println("sb1.compareTo(sb3) = " + sb1.compareTo(sb3));// -4
-
-
 
 
     }

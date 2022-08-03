@@ -4,10 +4,10 @@ public class C04_ExplicitNarrowing {
 
     public static void main(String[] args) {
         // Explicit Narrowing-> Kontrollu Daraltma
-        int sayi1=128;
+        int sayi1 = 128;
         // byte -128------------>0<------------127  int sayi=128; yazdıgımızda basa doner -128 verir
 
-        byte sayi2=(byte) sayi1;
+        byte sayi2 = (byte) sayi1;
         System.out.println(sayi2);
         //Genis data turundeki degeri, dar data turundeki variable'a atamak isterseniz Java sizin icin genis data
         //turundeki degerin,dar data turunun sinirlarina uyup uymayacagini calistirana kadar bilemez

@@ -1,0 +1,14 @@
+
+
+                =========> Onceki Dersten Aklimizda Kalanlar <==============
+
+1 - Polymorphism : Cok sekillilik, Java da ayni isimdeki bir method'un farkli farkli ozellikler gosterebilmesidir.
+
+2 - iki ihtimal var;
+    1. Overloading : Ayni class'da ve ayni isimde olup farkli method signature'ina sahip birden fazla
+    method olusturabilir ve boylece ayni isimdeki method'larla farkli farkli ozellikler uretebiliriz.
+    2. Overriding : Overriding sadece parent ve child class'da olur.Amaci parent class'daki bir method'un
+    ayni isim ve signature sahip bir kopyasini child class'da olusturup,child class'da farkli ozellik
+    uretmesini saglamaktir.
+
+  Polymorphism = Overloading + Overriding

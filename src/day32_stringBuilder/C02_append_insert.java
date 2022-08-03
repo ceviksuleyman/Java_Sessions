@@ -12,18 +12,18 @@ public class C02_append_insert {
 
         System.out.println("sb = " + sb); // Java daha ne yapsin
 
-        sb.append("Java",2,4);
+        sb.append("Java", 2, 4);
 
         System.out.println("sb = " + sb);// Java daha ne yapsin?va
 
 
         // araya ekleme yapmak istedigimizde append() degil insert() kullanmaliyiz.
 
-        sb.insert(0," herseyi dusunmus,"); // Java herseyi dusunmus, daha ne yapsin?
+        sb.insert(0, " herseyi dusunmus,"); // Java herseyi dusunmus, daha ne yapsin?
 
         System.out.println("sb = " + sb);
 
-        sb.insert(22,"valla valla",5,11);
+        sb.insert(22, "valla valla", 5, 11);
 
         System.out.println("sb = " + sb); // Java herseyi dusunmus, valla daha ne yapsin?
 

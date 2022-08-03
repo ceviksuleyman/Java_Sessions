@@ -6,7 +6,7 @@ public class C07_delete {
 
         StringBuilder sb = new StringBuilder("Java her zaman guzel");
 
-        sb.delete(8,9);
+        sb.delete(8, 9);
 
         System.out.println("sb = " + sb);// Java herzaman guzel
 
@@ -33,7 +33,7 @@ public class C07_delete {
 
         sb1.deleteCharAt(3);
 
-        sb1.reverse( );
+        sb1.reverse();
 
         System.out.println(sb1);
     }

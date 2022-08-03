@@ -31,11 +31,11 @@ public class C09_Question {
 
         StringBuilder sb = new StringBuilder(kelime);
 
-        if(sb.toString().equals(sb.reverse().toString())) {
+        if (sb.toString().equals(sb.reverse().toString())) {
 
             System.out.println("Girdiginiz kelime palindrom");
 
-        }else {
+        } else {
 
             System.out.println("Girdiginiz kelime palindrom degil");
         }

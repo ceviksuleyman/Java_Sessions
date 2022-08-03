@@ -13,11 +13,12 @@ public class C03_reverse {
         System.out.println("tersInput = " + tersInput);
 
     }
+
     private static String tersineCevir(String input) {
 
         StringBuilder sb = new StringBuilder(input);
 
-         return sb.reverse().toString();
+        return sb.reverse().toString();
 
     }
 }

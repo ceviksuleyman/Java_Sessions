@@ -40,7 +40,6 @@ public class C01_OlusturmaYontemleri {
         System.out.println("sb1.capacity() = " + sb1.capacity());// 70 (34*2+2)
 
 
-
         StringBuilder sb4 = new StringBuilder();
         sb4.append("Java Candir");
 

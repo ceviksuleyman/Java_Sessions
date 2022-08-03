@@ -9,9 +9,9 @@ public class C06_ForLoop {
         100'den 1'e kadar(dahiller) 8 ile bolunebilen sayilari yazdirin
          */
 
-        for (int i = 100; i >=1 ; i--) {
-            if (i%8==0){
-                System.out.print(i+" ");
+        for (int i = 100; i >= 1; i--) {
+            if (i % 8 == 0) {
+                System.out.print(i + " ");
             }
         }
     }

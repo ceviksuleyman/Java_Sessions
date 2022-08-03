@@ -8,24 +8,24 @@ public class C07_Faktoryel {
         * verilen sayi negatif veya 20' den buyuk olursa
         * "girilen sayinin faktoryeli hesaplanamaz" uyarisi yazdirin..
          */
-        int input=5;
+        int input = 5;
 
         faktoriyelHesapla(input);
     }
 
     public static void faktoriyelHesapla(int input) {
-        int faktoryel=1;
+        int faktoryel = 1;
 
-        if (input<0 || input>20){
+        if (input < 0 || input > 20) {
             System.out.println("Verilen sayi icin faktoryel hesaplanamaz");
-        }else if (input==0){
+        } else if (input == 0) {
             System.out.println("0!=1'dir");
-        }else {
+        } else {
 
-            for (int i = 1; i <=input ; i++) {
-                faktoryel*=i;
+            for (int i = 1; i <= input; i++) {
+                faktoryel *= i;
             }
-            System.out.println("faktoryel degeri: "+faktoryel);
+            System.out.println("faktoryel degeri: " + faktoryel);
         }
     }
 }
