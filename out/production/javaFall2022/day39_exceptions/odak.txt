@@ -1,0 +1,36 @@
+
+---------------------> Onceki Dersten Aklimizda Kalanlar <----------------------------------------------
+
+1 - Exception : Java'da ortaya cikmasi muhtemel istisna'lardir.
+
+2 - Java nerede ne yapacagini bilir. Eger Java'nin istedigi gibi kod yazmazsak Java Compile Time'da
+farkederse bunu altini kirmizi cizerek bize soyler.
+Ancak bazen syntax acisindan hersey normal olsa da Java'nin cozemeyecegi durumlar ortaya cikar bu durumda
+Java calismayi durdurur(stop execution) ve durumu bize rapor etmek icin kirmizi yazilar yazar.
+
+3 - Java'nin verdigi hata mesajinda
+    1. Hatanin hangi satirda oldugu,
+    2. Hatanin kaynagi
+    3. Exception turu yazilidir.
+
+4 - Eger biz kodumuzu yazarken sorun olmasi muhtemel noktalari ongorebiliyorsak, Java'ya boyle bir exception
+ile karsilastiginda ne yapmasini istedigimizi soyleyebiliriz.
+
+5 - Biz eger Java'nin exception ile karsilastiginda calismaya devam etmesini istiyorsak o zaman exception
+olusturmasi muhtemel olan kod blogunu try-catch ile cevreleyebiliriz.
+
+====> try- catch
+
+1 - Try body'si exception olusturmasi ongorulen kodlari icerir.
+
+2 - catch'den sonra yazilan () bekledigimiz exception'inin turune ve exception olusursa atama yapacagimiz
+objeyi icerir "e".
+
+3 - Catch body'si ise exception yakalandiginda yapilacak islemi icerir.
+
+4 - catch body'sinde hata raporu vermek istiyorsak biz sout ile yazdirabilecegimiz gibi exception'i store
+ettigimiz "e" objesi uzerinden hazir hata mesajlarini da kullanabiliriz. e objesini kullanarak hata raporu
+yazdirdigimizda, ekranda yine kirmizi yazilar goruruz ama bu kodun durdugu icin degil biz yazdirmak istedigimiz
+icin olur. Eger istemezsek kirmizi yazilarin hicbirini yazdirmasak da olur.
+
+5 - try blogu tek basina KULLANILAMAZ, try blogunun yanina catch block(lari) ve/veya finally block kullanilmalidir.
