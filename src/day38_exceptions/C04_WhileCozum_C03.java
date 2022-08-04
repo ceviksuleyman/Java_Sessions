@@ -3,7 +3,7 @@ package day38_exceptions;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class C04_C03WhileCozum {
+public class C04_WhileCozum_C03 {
 
     public static void main(String[] args) {
         /*
