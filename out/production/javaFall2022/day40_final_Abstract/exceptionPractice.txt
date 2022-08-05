@@ -1,0 +1,17 @@
+
+
+Exception Tekrar Sorulari
+1 - try blogu mutlaka catch blogu ile kullanilmalidir. -> false
+
+2 - finally blogu mutlaka calisir. -> true
+
+3 - Bir try blogu ile birden fazla catch blogu calistirilabilir. -> true
+
+4 - Birden fazla catch blok varsa , child olan once yazilmalidir. -> true
+
+5 - FileNotFoundException nedir ?
+-> Programimizda bir dosyayi okumaya calisiyorsak ve dosya bulunamazsa olusur. IOException'in subclass'idir.
+
+6 - IOException nedir ?
+-> Programimizda bir file'a input/output yapiliyorsa ve program calisirken bir problem cikarsa olusur.
+Checked exception'dir ve kod yazilirken mutlaka handle edilmelidir.

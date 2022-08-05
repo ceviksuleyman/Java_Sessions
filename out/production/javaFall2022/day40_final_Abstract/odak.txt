@@ -1,0 +1,22 @@
+
+
+  ---------------------- Onceki Dersten Aklimizda Kalanlar ---------------------------------------
+
+1 - Eger yazdigimiz kod birden fazla exception olusturma ihtimali tasiyorsa,bu durumda birden fazla
+try-catch kullanabiliriz.
+
+2 - Exception'in kaynagi kodun farkli satirlari ise,o satirlari ayri ayri handle edebiliriz.
+
+3 - Ama ayni kod blogu birden fazla exception ihtimali iceriyorsa, ic ice try cat bloklari,bir try birden fazla
+catch olusturabiliriz,muhtemel exception'lari kapsayan tek bir exception varsa sadece o yazilabilir.
+
+4 - Olusucak exception'lar birbiri ile parent-child iliskisine sahipse child uste,parent altta yazilmalidir.
+Bu bir tercih degil mecburiyettir.
+
+5 - Eger parent yukarida child asagida olursa,Java CTE verir,cunku asagidaki child exception ulasilamaz
+konumda olacaktir,
+
+6 - Eger compile time exception'i handle etmek degil de sadece Java'daki kirmizi cizgileri kaldirmak isterseniz
+method signature'ina "thwors" keyword ile olusabilecek exception class isimlerini yazariz.
+
+7 - Eger kodun herhangi bir satirinda bir exception throw etmek istersek, throw new ExceptionIsmi kullanabiliriz.
