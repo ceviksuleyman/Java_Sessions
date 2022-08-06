@@ -1,45 +1,39 @@
 
     => INTERFACE
 
-    Interface bir class degildir.
+      Interface bir class degildir.
 
-    Abstract class'lar Java'da abstraction(soyutlastirma / Kural koyma)
-    islevini yapiyordu.
+      Abstract class'lar Java'da abstraction(soyutlastirma / Kural koyma) islevini yapiyordu.
 
-    Ancak abstract bir class'da abstract olmayan method'lar da olabilir.
-    Bu da full abstraction yapmaya izin vermez.
+      Ancak abstract bir class'da abstract olmayan method'lar da olabilir. Bu da full abstraction
+      yapmaya izin vermez.
 
-    Eger Java'da icinde hic concrete method olmasin dedigimiz bir class
-    olusturmak istiyorsaniz bunu class degil INTERFACE yapmalisiniz.
+      Eger Java'da icinde hic concrete method olmasin dedigimiz bir class olusturmak istiyorsaniz
+      bunu class degil INTERFACE yapmalisiniz.
 
-    1 - INTERFACE'lerde concrete method OLMAZ !!
+      1 - INTERFACE'lerde concrete method OLMAZ !!
 
-    2 - interface'lar full abstraction yaptigindan interface'lerden obje
-    OLUSTURULAMAZ
-    List<String> list = new List<>();
-    interface olan List'ten direk obje olusturamiyorduk.
-    Bunun yerine constructor'i List'in child'i olan ArrayList'ten seceriz.
-    List<String> list = new ArrayList<>();
+      2 - interface'lar full abstraction yaptigindan interface'lerden obje OLUSTURULAMAZ
+      List<String> list = new List<>();
+      interface olan List'ten direk obje olusturamiyorduk.
+      Bunun yerine constructor'i List'in child'i olan ArrayList'ten seceriz.
+      List<String> list = new ArrayList<>();
 
-    3 - Class'larda bir child birden fazla parent edinemez.
-    Ancak interface'lerde concrete method olmadigindan biz her method'u
-    childe class'da override etmek zorundayiz.
-    Override ederken kimin soyledigini override ettigimizin onemi yok.
+      3 - Class'larda bir child birden fazla parent edinemez.Ancak interface'lerde concrete method
+      olmadigindan biz her method'u child class'da override etmek zorundayiz.
+      Override ederken kimin soyledigini override ettigimizin onemi yok.
 
-    4 - Interface'ler neyin yapilmasi gerektigini soyler, ama nasil
-    yapilacagina karismaz
+      4 - Interface'ler neyin yapilmasi gerektigini soyler, ama nasil yapilacagina karismaz.
 
-    5 - Interface'de sadece abstract public method'lar konabilir.
-    Return typler farkli olabilir.
+      5 - Interface'de sadece abstract public method'lar konabilir. Return typler farkli olabilir.
 
-    6 - Interface icindeki variable'lar mutlaka public,static ve final olmalidir.
-    private ve protected variable'lar CTE verir.
+      6 - Interface icindeki variable'lar mutlaka public,static ve final olmalidir.
+      private ve protected variable'lar CTE verir.
 
-    7 - Interface icindeki variable'lar mutlaka initialize etmek ZORUNDASINIZ,
-    aksi taktirde CTE alirsiniz.
+      7 - Interface icindeki variable'lar mutlaka initialize etmek ZORUNDASINIZ, aksi taktirde CTE alirsiniz.
 
-    Interface icinde sadece kendisinden tureyen siniflarin icini doldurmak
-    zorunda oldugu,body'si olmayan method'larin olusturuldugu bir yapidir.
+      Interface icinde sadece kendisinden tureyen siniflarin icini doldurmak zorunda oldugu,body'si olmayan
+      method'larin olusturuldugu bir yapidir.
 
-    Kisacasi kendisini inherit eden class'lar icin,yerine getirmeleri gereken
-    method'lari belirten 'tum alanlari doldurmak zorunda olan bir sablon' gibidir.
+      Kisacasi kendisini inherit eden class'lar icin,yerine getirmeleri gereken method'lari belirten
+      'tum alanlari doldurmak zorunda olan bir sablon' gibidir.
