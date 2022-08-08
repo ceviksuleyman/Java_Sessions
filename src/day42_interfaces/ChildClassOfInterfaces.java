@@ -19,6 +19,7 @@ public class ChildClassOfInterfaces implements I01_Interfaces,I02_Interfaces{
         System.out.println(I02_Interfaces.SAYI); // 30
         System.out.println(ISIM); // YILDIZ KOLEJI
 
+
     }
 
     @Override
@@ -34,5 +35,10 @@ public class ChildClassOfInterfaces implements I01_Interfaces,I02_Interfaces{
     @Override
     public void teker() {
 
+    }
+
+    @Override
+    public void aku() {
+        I02_Interfaces.super.aku();
     }
 }

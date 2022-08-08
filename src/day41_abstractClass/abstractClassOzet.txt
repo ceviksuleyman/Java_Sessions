@@ -17,3 +17,4 @@ override etmek ZORUNDA DEGILDIR.
 5 - Abstract bir class'in abstract bir child'i parent'daki abstract method'lari override etmek ZORUNDA DEGILDIR.
 
 6 - Abstract class'lar contructor'a sahiptir fakat abstract class'lardan OBJE OLUSTURULAMAZ.
+

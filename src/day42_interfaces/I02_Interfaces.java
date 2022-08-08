@@ -32,6 +32,8 @@ public interface I02_Interfaces {
     concrete denmez.
 
     Body'si olan bu method'lar istisna olarak kabul edilebilir.
-    static void aku() { }
-    */
+
+     */
+    default void aku() { }
+
 }
