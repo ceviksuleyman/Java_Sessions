@@ -1,0 +1,27 @@
+
+
+1 - Interface : Java'da full abstraction saglayarak,child class'larin mutlaka yerine getirmesi
+gereken ozellikleri belirleyen yapidir.
+
+2 -  Bu haliyle interface,child class'larin her alanini mecburen doldurmasi gereken bir
+sablon gibidir.
+
+3 - Interface'lerde concrete method OLMAZ.
+
+4 - Interface'lerde tum variable'lar public'static ve finaldir.Biz bu anahtar kelimeleri
+yazsak da yazmasak da kabul eder.
+
+5 - Interface'deki tum method'lar ise public ve abstractir.Bu kelimeleri yazsak da yazmasak
+da Java bu sekilde kabul eder.
+
+6 - Bir concrete class birden fazla class'i inherit edemez ancak, birden fazla interface'i
+implement edebilir.Bu durumda ;
+  - eger birden fazla parent interface'de ayni isimde variable varsa  InterfaceIsmi.variableISmi
+  - eger birden fazla parent interface'de ayni isimde ve ayni return type'de method varsa
+hangisini override ettigi onemsiz oldugundan sorun cikmaz
+  - ancak ayni isim farkli return type'i olan method'lar varsa o zaman CTE olur.
+
+7 - Interface'de body'si olan method yazilabilir ancak bu istisnai bir durumdur
+ve kurallari bozmaz.
+
+8 - Interface'lerin constructor'i yoktur.
