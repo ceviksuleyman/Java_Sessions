@@ -6,6 +6,14 @@ import java.util.List;
 
 public class Iterator01 {
 
+    /*
+    Java iterator, collection elemanlarimizin arasinda gezinmemizi ve elemenlari
+    degistirmemize yarar.
+
+    Collections'da her element index yapisini desteklemez,index olmadan tum elementlere
+    ulasmak ıcın for-each loop kullanabiliriz ancak for-each loop ile elementleri kalici
+    olarak degistirme veya silme imkani olmadigi icin Iterator kullanimini tercih ederiz.
+     */
     public static void main(String[] args) {
         // Java iterator, collection elemanlarimizin arasinda gezinmemizi
         // ve elemanlari degistirmemize yarar,index yapisini desteklemez.
