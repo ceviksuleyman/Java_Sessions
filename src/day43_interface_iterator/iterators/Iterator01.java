@@ -74,6 +74,8 @@ public class Iterator01 {
         System.out.println("list = " + list);// []
         /*
         iterator ile elementleri gezip, remove yapinca list kalici olarak degisti.
+
+        Iterator'da kullanilabilen 3 method; hasNext(),next(),remove()  !!!
          */
 
 
