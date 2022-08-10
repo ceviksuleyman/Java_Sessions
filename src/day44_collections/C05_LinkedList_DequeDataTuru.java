@@ -21,6 +21,11 @@ public class C05_LinkedList_DequeDataTuru {
 
         System.out.println("deque = " + deque);// [Cavidan, Mesut, Selim, Tevfik]
 
+        System.out.println("deque.pop() = " + deque.pop()); // Cavidan
+        // pop(), listenin ilk elemanini siler,ve bize dondurur.Liste bos olursa exception firlatir.
+
+        System.out.println("deque = " + deque); // [Mesut, Selim, Tevfik]
+
 
     }
 }
