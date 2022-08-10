@@ -38,7 +38,7 @@ public class Iterator01 {
 
         System.out.println("list = " + list);
 
-        Iterator it1 = list.iterator();
+        Iterator<Integer> it1 = list.iterator();
 
         System.out.println("it1.next() = " + it1.next()); // 10
         System.out.println("it1.next() = " + it1.next()); // 20
@@ -50,7 +50,7 @@ public class Iterator01 {
         basa donmek isterseniz yeniden bir iterator olusturmaniz gerekir.
          */
 
-        Iterator it2 = list.listIterator();
+        Iterator<Integer> it2 = list.listIterator();
 
         // yeni it2'yi kullanarak list'in tum elemanlarini silelim.
 
@@ -75,7 +75,7 @@ public class Iterator01 {
         list.add(30);
         System.out.println("yeniden list = " + list); // [10, 20, 30]
 
-        Iterator it3 = list.listIterator();
+        Iterator<Integer> it3 = list.listIterator();
 
         while (it3.hasNext()) {
 

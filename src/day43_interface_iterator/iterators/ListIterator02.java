@@ -18,7 +18,7 @@ public class ListIterator02 {
         list.add(30);
         System.out.println("list = " + list); // [10, 20, 30]
 
-        ListIterator lit1 = list.listIterator();
+        ListIterator<Integer> lit1 = list.listIterator();
 
         int temp;
 

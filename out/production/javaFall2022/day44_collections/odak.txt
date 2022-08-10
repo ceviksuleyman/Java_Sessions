@@ -1,0 +1,29 @@
+
+
+O.D.A.K.
+
+1 - Iterator : Collections'dan bazi yapilar index desteklemez,bu durumda collection
+icindeki tum elementleri bize getirebilecek ve gerektiginde elementleri degistirecek
+bir tasiyicidir.
+
+2 - Iterate : otemelek demektir,iterator'u ilk olusturdugumuz da java iterator'i
+collection'in ilk elementinin yanina koyar,iterator'i next() ve previous() ile
+hareket ettirdigimizde Java iterator'i bir sonraki eleman'a tasir ve tasirken pass
+ettigi elementi yuklenir.
+
+3 - Uzerine aldigi elementi remove() ile silebilir,istersek yazdirabilir veya set()
+ile degistirebiliriz.
+
+4 - Java'da iki iterator kullaniriz,Iterator class'i sadece 3 method barindirdigi icin
+cok kullanisli degildir.Sadece ileri dogru gider,remove ile element silebilir veya
+yazdirabilir.(next() hasNext() revome())
+
+5 - ListIterator ise Iterator'in child'i olmasina ragmen daha fazla method barindirir.
+Ileri ve geri hareker edebilir,set() ile elementleri degistirebilir.
+
+6 - hasNext() ve hasPrevious() method'lari yaninda element oldugu muddetce bize true
+dondurur,bu method'lari while loop kullanarak,ileri ve geri olarak tum elementler
+uzerinde gezinebiliriz.
+
+7 - Iterator ve ListIterator interface olduklarindan direkt obje uretemeyiz,bunun yerine
+bize iterator veya listIterator dondurecek method'lar kullaniriz.
