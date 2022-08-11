@@ -1,0 +1,24 @@
+
+O.D.A.K.
+
+1 - Collections : Java'da birden fazla data turu barindirabilen yapilardir.Interface ve class'lardan olusur.
+
+2 - Interface'ler ortak ozelliklere sahip child class'lari bir cati altinda toplamak icin kullanilir.
+
+3 -                           Collections
+
+         List               Queue(ve Deque)                  Set
+
+4 - Set    => (kume)elemanlar tekrarsiz
+    Linked => bagli demek,(Halat) ekleme ve cikarma cok iyi,arama cok yavas
+    Tree   => (Dogal sirali)eklenen her element natural order'a gore yerlestirilir.
+    Hash   => her bir element icin unique bir hash code olusturup arsive yerlestirir,bulmada cok hizlidir.
+    Queue  => (Yemek kuyrugu) eklenen sona eklenip,ayrilan bastan ayrilir.
+
+5 - LinkedList, birbirine bagli node'lardan olusur,her bir node'da bir deger ve sonraki node'un adresi bulunur.
+Ilk element Head'dir, head sadece adres icerir,deger icermez. Son element de ise deger vardir,adres olarak
+null pointer kullanir.
+
+6 - LinkedList'in 3 tane interface'i vardir.LinkedList olustururken data turu
+       * LinkedList secilirse,tum parent ozelliklerini kullanabilir(List,Queue,Deque).
+       * List,Deque veya Queue secilirse o interface'lerdeki ozellikleri kullanabilir.

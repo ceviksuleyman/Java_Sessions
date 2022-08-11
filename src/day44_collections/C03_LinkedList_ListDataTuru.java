@@ -15,7 +15,7 @@ public class C03_LinkedList_ListDataTuru {
      */
 
     /*
-    LinkedList 2 interface'in child class'idir.(List , Deque is A Queue)
+    LinkedList 3 interface'in child class'idir.(List , Deque is A Queue)
 
     Obje olustururken data turu olarak istedigimiz parent interface'i secebilir ve
     o interface'deki ozellikleri kullanabiliriz.

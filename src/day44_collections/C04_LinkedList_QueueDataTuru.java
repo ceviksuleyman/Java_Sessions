@@ -1,9 +1,27 @@
 package day44_collections;
 
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class C04_LinkedList_QueueDataTuru {
+
+    /*
+    Queue interface'dir dolayisiyla constructor'i yoktur.
+
+    Queue olusturmak icin child class'i olan LinkedList veya PriorityQueue kullanilabilir.
+
+    1 - PriorityQueue constructor'i kullanarak Queue uretirseniz,Java kendisi bir priority(oncelik)
+    kurali uretir ve bu kurala gore elementleri dizer.
+
+    Istersek biz kendi Priority(oncelik) kuralimizi uretip o kurala gore dizebiliriz.
+
+    2 - LinkedList constructor'i kullanarak Queue uretirseniz elemanlari insertion(ekleme)
+    sirasina gore dizer.
+
+    NOTE => Queue icin ayirici ozellik : Elemanlar sona eklenir ve en bastan silinir.
+    Bu sisteme FIFO(first in firs out) denir.
+     */
 
     public static void main(String[] args) {
 
@@ -13,6 +31,9 @@ public class C04_LinkedList_QueueDataTuru {
         queue.add("Zeynep");
         queue.add("Hpolat");
         queue.add("Kadir");
+
+        Queue<String> priorityQueue = new PriorityQueue<>(queue);
+        System.out.println("priorityQueue = " + priorityQueue); // [Adem, Kadir, Hpolat, Zeynep]
 
         // queue, kuyruk demektir ,sira onemlidir. Eklenen sona gelir, silinen bastan gider !!
 
@@ -44,7 +65,7 @@ public class C04_LinkedList_QueueDataTuru {
 
 
         System.out.println("queue.poll() = " + queue.poll()); // Zeynep - ilk elemani sildi.
-        // poll() , remove() gibi calisiyorilk elemani siler.
+        // poll() , remove() gibi calisiyor ilk elemani siler.
         // Aralarindaki fark remove liste bos ise exception verir.
         // poll() liste bos ise null doner.
 
