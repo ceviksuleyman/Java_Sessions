@@ -91,24 +91,23 @@ public class Ogrenci {
 
     public static void ogrenciEkle() {
 
-        System.out.println("Tc no");
+        System.out.print("Tc no : ");
         String tcNo = scan.nextLine();
-        System.out.println("Isim");
+        System.out.print("Isim : ");
         String isim = scan.nextLine();
-        System.out.println("Soyisim");
+        System.out.print("Soyisim : ");
         String soyisim = scan.nextLine();
-        System.out.println("Dogum Yili");
+        System.out.print("Dogum Yili : ");
         String dogumYili = scan.nextLine();
-        System.out.println("Okul No");
+        System.out.print("Okul No : ");
         String okulNo = scan.nextLine();
-        System.out.println("Sinif");
+        System.out.print("Sinif : ");
         String sinif = scan.nextLine();
-        System.out.println("Sube");
+        System.out.print("Sube : ");
         String sube = scan.nextLine();
 
         String key = tcNo;
-        String value = isim + ", " + soyisim + ", " + dogumYili + ", " + okulNo + ", " +
-                sinif + ", " + sube;
+        String value = isim + ", " + soyisim + ", " + dogumYili + ", " + okulNo + ", " + sinif + ", " + sube;
         ogrenciMap.put(key, value);
     }
 

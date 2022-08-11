@@ -91,15 +91,15 @@ public class Ogretmen {
 
     public static void ogretmenEkleme() { // ogretmen ekleme
 
-        System.out.println("Tc no : ");
+        System.out.print("Tc no : ");
         String tcNo = scan.nextLine();
-        System.out.println("isim : ");
+        System.out.print("isim : ");
         String isim = scan.nextLine();
-        System.out.println("soyisim : ");
+        System.out.print("soyisim : ");
         String soyisim = scan.nextLine();
-        System.out.println("Dogum yili : ");
+        System.out.print("Dogum yili : ");
         String dYili = scan.nextLine();
-        System.out.println("Brans : ");
+        System.out.print("Brans : ");
         String brans = scan.nextLine();
 
         String eklenecekValue = isim + ", " + soyisim + ", " + dYili + ", " + brans;
