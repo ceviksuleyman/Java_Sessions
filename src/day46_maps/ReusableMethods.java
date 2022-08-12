@@ -27,9 +27,11 @@ public class ReusableMethods {
         int sira = 1;
         for (String w : ogrenciMap.values()
         ) {
-            System.out.println(sira + "-" + w);
+            String[] wArr = w.split(", ");
+            System.out.println(sira + " - Ad Soyad : " + wArr[0] + " " + wArr[1] + " / Brans : " + wArr[2]);
             sira++;
         }
+
 
     }
 
