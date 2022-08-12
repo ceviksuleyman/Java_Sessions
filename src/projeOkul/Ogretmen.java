@@ -18,6 +18,7 @@ public class Ogretmen {
         ogretmenlerMap.put("12343545671", "Veli, Kan, 1994, Kimya");
         ogretmenlerMap.put("12312345671", "Kamil, Can, 1985, Biyoloji");
         ogretmenlerMap.put("15232342331", "Ayse, Gul, 1983, Biyoloji");
+        ogretmenlerMap.put("14232123232", "Suleyman, Cevik, 1993, Java");
 
     }
 
@@ -65,14 +66,14 @@ public class Ogretmen {
             }
 
 
-        } while (!tercih.equalsIgnoreCase("q"));
+        } while (!tercih.equalsIgnoreCase("Q"));
         Depo.projeDurdur();
 
     }
 
     public static void tcNoIleOgretmenSil() throws InterruptedException {
 
-        System.out.println("Silinecek ogretmen Tc no girin : ");
+        System.out.print("Silinecek ogretmen Tc no girin : ");
         String silinecekOgretmen = scan.nextLine();
 
         String silinecekValue = ogretmenlerMap.get(silinecekOgretmen);
@@ -143,7 +144,7 @@ public class Ogretmen {
         Set<Map.Entry<String, String>> ogretmenEntrySet = ogretmenlerMap.entrySet();
         System.out.println("~~~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~~~" +
                 "\n~~~~~~~~~~~ SOYISIM ILE OGRETMEN ARAMA ~~~~~~~~~~~~" +
-                "\n   TCNO      ISIM     SOYISIM    D.YILI  BRANS");
+                "\n    TCNO      ISIM      SOYISIM   D.YILI  BRANS");
 
         for (Map.Entry<String, String> w : ogretmenEntrySet
         ) {
@@ -152,7 +153,7 @@ public class Ogretmen {
 
             String[] wValueArr = wValue.split(", ");// Ogretmen bilgilerini array'e atadik
             if (istenenSoyisim.equalsIgnoreCase(wValueArr[1])) {
-                System.out.printf("%11s  %-8s   %-8s  %4s   %-6s \n",
+                System.out.printf("%12s  %-9s   %-9s  %5s   %-7s \n",
                         wKey,
                         wValueArr[0],
                         wValueArr[1],
@@ -178,7 +179,7 @@ public class Ogretmen {
             String wValue = w.getValue();
 
             String[] wValueArr = wValue.split(", ");// Ogretmen bilgilerini array'e atadik
-            System.out.printf("%11s  %-8s   %-8s  %4s   %-6s \n",
+            System.out.printf("%11s  %-8s  %-8s   %4s   %-6s \n",
                     wKey,
                     wValueArr[0],
                     wValueArr[1],

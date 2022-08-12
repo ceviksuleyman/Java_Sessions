@@ -65,13 +65,13 @@ public class Ogrenci {
             }
 
 
-        } while (!tercih.equalsIgnoreCase("q"));
+        } while (!tercih.equalsIgnoreCase("Q"));
         Depo.projeDurdur();
     }
 
     public static void tcNoIleOgrenciSilme() {
 
-        System.out.println("Silinecek ogrenci Tc no girin : ");
+        System.out.print("Silinecek ogrenci Tc no girin : ");
         String silinecekOgrenci = scan.nextLine();
 
         String silinecekValue = ogrenciMap.get(silinecekOgrenci);
