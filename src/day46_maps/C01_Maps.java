@@ -27,7 +27,7 @@ public class C01_Maps {
 
         System.out.println(sinifList.keySet());// [101, 102, 103, 104, 105]
 
-        System.out.println(sinifList.values()); // [Ali, Can, JDev, Enes, Cem, Tester, Taha, Emre, JDev, Derya, Deniz, Tester, Derya, Naz, Tester]
+        System.out.println(sinifList.values()); // [Ali, Can, JDev, Enes, Cem, Tester, Taha, Emre, JDev, Derya, Deniz, Tester, Buse, Naz, Tester]
 
         System.out.println(sinifList.size()); // 5
 
