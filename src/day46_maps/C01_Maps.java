@@ -23,7 +23,7 @@ public class C01_Maps {
         sinifList.put(104, "Derya, Deniz, Tester");
         sinifList.put(105, "Buse, Naz, Tester");
 
-        System.out.println(sinifList);//{101=Ali, Can, JDev, 102=Enes, Cem, Tester, 103=Taha, Emre, JDev, 104=Derya, Deniz, Tester}
+        System.out.println(sinifList);//{101=Ali, Can, JDev, 102=Enes, Cem, Tester, 103=Taha, Emre, JDev, 104=Derya, Deniz, Tester, 105=Buse, Naz, Tester}
 
         System.out.println(sinifList.keySet());// [101, 102, 103, 104, 105]
 
