@@ -1,0 +1,21 @@
+
+O.D.A.K
+
+1 - Map : Gercek projelerdeki database sistemine en uygun Java objesidir.
+
+2 - Map'lerde ayni ozelliklere sahip ve ozellikleri ayni bicimde tektiplestirilmis
+datalar saklayabiliriz.
+
+3 - Tektiplestirme sonradan datalara ulasabilmek icin onemli
+
+4 - Map'a ekleyecegimiz tum ozellikler 2 parcadan(key,value) olusmalidir.Key ve value
+icin data turu sinirlamasi yoktur,istedigimiz data turunu secebiliriz.
+
+5 - Map olustururken key ve value'nun data turune karar vermis olmamiz ve bunu declare
+etmemiz gerekir.
+
+6 - Map'da tum islemler key uzerinden yapilir,bundan dolayi key degerleri unique olmalidir.
+
+7 - Bir firmada calistigimizda eger map kullaniliyorsa map'in data yapisi hep ayni olacaktir.
+Bizden istenen herhangi bir gorevi yaparken, gorevi bagimsiz method'larla kurgulamak,ilerde
+yapacagimiz gorevlerde kolaylik saglayacaktir.
