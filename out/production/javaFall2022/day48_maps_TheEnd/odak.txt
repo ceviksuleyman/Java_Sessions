@@ -1,0 +1,18 @@
+
+O.D.A.K
+
+1 - Map'lerde key ve value'lara map.keyset() ve map.values ile ulasabiliriz, ancak key ve value'ya
+birlikte ulasmak istersek 2 ihtimalimiz var.
+     1) keySet() ile key'leri alip bir Set'e koyabilir, set'deki herbir key uzerinden map.getKey(key)
+     ile value'ya ulasabilir ve manipule edebiliriz.
+     2) Java key ve value'lar ile ayri ayri ugrasmamiz icin Entry interface'ini olusturmustur.
+     Entry hem key hem de value icerdigi icin map'in elemanlari uzerinde gezinmek ve update etmek
+     daha kolay olacaktir.
+
+2 - Update : ister keySet() isterseniz Entry ile yapin, yaptigimiz her degisikligin kalici olmasi
+icin en son Map'i update etmeliyiz.Bunun icin degisiklik yaptigimiz value'yu put(key,yeniValue)
+olarak Map'e ekleyebilir veya entry.setValue(yeniDeger) ile entry uzerinden map'i update edebiliriz.
+
+3 - map'de containsKey() ve containsValue() method'lari ile key veya value'nun map'de olup
+olmadigini kontrol edebiliriz.Burada dikat etmemiz gereken sey, value'yu bir butun olarak arayabiliriz,
+value icerisindeki bir String'i aratamayiz.

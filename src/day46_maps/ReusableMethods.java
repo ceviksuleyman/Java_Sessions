@@ -4,7 +4,6 @@ import java.util.*;
 
 public class ReusableMethods {
 
-
     public static Map<Integer, String> mapOlustur() {  //method 1
 
         Map<Integer, String> sinifMap = new HashMap<>();
@@ -20,19 +19,21 @@ public class ReusableMethods {
         return sinifMap;
     }
 
-
+    //-------------------------------------------------------------------------------------------
     public static void tumValueSiraliYazdir(Map<Integer, String> ogrenciMap) { // method 2
 
         int sira = 1;
         //for (String w : ogrenciMap.values()) {System.out.println(sira + "-" + w);sira++;}
-        for (String w : ogrenciMap.values()
-        ) {
+        for (String w : ogrenciMap.values()) {
+
             String[] wArr = w.split(", ");
+
             System.out.println(sira + " - Ad Soyad : " + wArr[0] + " " + wArr[1] + " / Brans : " + wArr[2]);
             sira++;
         }
     }
 
+    //---------------------------------------------------------------------------------------------
     public static List<String> isimSoyisimListesiOlustur(Map<Integer, String> ogrenciMap) { // method 3
 
         List<String> methodList = new ArrayList<>();
@@ -47,7 +48,7 @@ public class ReusableMethods {
         return methodList;
     }
 
-
+    //----------------------------------------------------------------------------------------------
     public static void bransOgrenciSayisiYazdir(Map<Integer, String> sinifListMap) { // method 4
         // brans = bransdaki ogrenci sayisi
 
@@ -65,18 +66,28 @@ public class ReusableMethods {
             brans = valueArr[2];
 
             // bransin bransOgrSayiMap'inde key olarak daha onceden eklenip eklenmedigini kontrol etmeliyiz
-
             if (!bransOgrSayiMap.containsKey(brans)) {
 
                 bransOgrSayiMap.put(brans, 1);
+
             } else {
 
                 bransdakiOgrSayisi = bransOgrSayiMap.get(brans);
                 bransOgrSayiMap.put(brans, ++bransdakiOgrSayisi);
             }
         }
-
-
         System.out.println(bransOgrSayiMap);
+    }
+
+    //--------------------------------------------------------------------------------------------
+    public static void entryYazdir(Map<Integer, String> sinifListMap) { // method 5
+
+        Set<Map.Entry<Integer, String>> sinifListEntry = sinifListMap.entrySet();
+
+
+        for (Map.Entry<Integer, String> w : sinifListEntry) {
+
+            System.out.println(w);
+        }
     }
 }
