@@ -38,7 +38,7 @@ public class C02_MapMethods {
         System.out.println(sinifListMap.putIfAbsent(106, "Mevlut, Han, Tester")); // 106 da Taha, Deniz, JDev oldugu icin eklemedi
                                                                                   // 106 da olani bize dondurdu.
 
-        if (sinifListMap.putIfAbsent(106, "Mevlut, Han, Tester") == null) { // eklemedi
+        if (sinifListMap.putIfAbsent(106, "Mevlut, Han, Tester") == null) { // null donerse ekler
 
             System.out.println("Kayit basarili");
 
