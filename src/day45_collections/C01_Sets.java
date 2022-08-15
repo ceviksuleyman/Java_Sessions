@@ -27,6 +27,7 @@ public class C01_Sets {
     2 - Elemanlari ekleme sirasina(insertion order) gore dizerler.
     3 - Ekleme ve remove islemlerinde hizlidirlar.
     4 - LinkedHashSet,HashSet'ten yavastir.
+    5 - null object'ini eleman olarak kullanabilir.
 
     TreeSet =>
     1 - Ekleme sirasini korumaz,elemanlari naturel order'a gore siralar, bu yuzden HashSet'e gore daha yavastir.
