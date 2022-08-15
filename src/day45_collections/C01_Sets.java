@@ -31,6 +31,7 @@ public class C01_Sets {
     TreeSet =>
     1 - Ekleme sirasini korumaz,elemanlari naturel order'a gore siralar, bu yuzden HashSet'e gore daha yavastir.
     2 - Tekrarli eleman kabul etmez.
+    3 - null eleman olarak kullanilamaz.
 
      */
     public static void main(String[] args) {
