@@ -17,14 +17,14 @@ public class C03_Compute {
 
         System.out.println(harfMapi);
 
-        harfMapi.compute("A",(k,v) -> v*2+3); // 5*2+3 -> A=13
-        harfMapi.compute("D", (a,b) -> b*b); // 4*4 ->  D=16
+        harfMapi.compute("A",(k,v) -> v*2+3); //  5*2+3 -> A=13
+        harfMapi.compute("D", (a,b) -> b*b); //  4*4 ->  D=16
 
-        harfMapi.computeIfAbsent("C", (v) -> 30); // C zaten var oldugu icin degisiklik olmadi
-        harfMapi.computeIfAbsent("F", (v) -> 30); // F yi ekledi ve value 30 yapti -> F=30
+        harfMapi.computeIfAbsent("C", (v) -> 30); //  C zaten var oldugu icin degisiklik olmadi
+        harfMapi.computeIfAbsent("F", (v) -> 30); //  F yi ekledi ve value 30 yapti -> F=30
 
-        harfMapi.computeIfPresent("E",(k,v) -> v+5); // 4+5 -> E=9
-        harfMapi.computeIfPresent("G",(k,v) -> v+5); // G olmadigi icin bi degisiklik olmadi.
+        harfMapi.computeIfPresent("E",(k,v) -> v+5); //  4+5 -> E=9
+        harfMapi.computeIfPresent("G",(k,v) -> v+5); //  G olmadigi icin bi degisiklik olmadi.
 
         System.out.println(harfMapi);
     }
