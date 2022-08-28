@@ -36,8 +36,6 @@ public class C02_ListIterator {
         }
 
 
-
-
         /*
         Bir listedeki ilk n elemani iterator kullanarak 5 artirin.
         Orn : list : [2,13,56,23,45,14,40] artirilmasi istenen eleman sayisi : 3

@@ -1,5 +1,4 @@
 
-
 O.D.A.K.
 
 1 - Iterator : Collections'dan bazi yapilar index desteklemez,bu durumda collection
