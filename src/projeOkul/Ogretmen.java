@@ -26,7 +26,7 @@ public class Ogretmen {
         String tercih;
         do {
 
-            System.out.println("~~~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~~~" +
+            System.out.println("~~~~~~~~~~~~ CEVIK KOLEJI ~~~~~~~~~~~~" +
                     "\n~~~~~~~~~~~  OGRETMEN MENU  ~~~~~~~~~~~~" +
                     "\n\t1 - OGRETMEN LISTESI YAZDIR" +
                     "\n\t2 - SOYISIMDEN OGRETMEN BULMA" +
@@ -112,7 +112,7 @@ public class Ogretmen {
         System.out.print("Aradiginiz Ogretmenin Bransini Giriniz : ");
         String istenenBrans = scan.nextLine();
         Set<Map.Entry<String, String>> ogretmenEntrySet = ogretmenlerMap.entrySet();
-        System.out.println("~~~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~~~" +
+        System.out.println("~~~~~~~~~~~~ CEVIK KOLEJI ~~~~~~~~~~~~" +
                 "\n~~~~~~~~~~~ BRANS ILE OGRETMEN ARAMA ~~~~~~~~~~~~" +
                 "\n   TCNO      ISIM     SOYISIM    D.YILI  BRANS");
 
@@ -142,7 +142,7 @@ public class Ogretmen {
         String istenenSoyisim = scan.nextLine();
 
         Set<Map.Entry<String, String>> ogretmenEntrySet = ogretmenlerMap.entrySet();
-        System.out.println("~~~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~~~" +
+        System.out.println("~~~~~~~~~~~~ CEVIK KOLEJI ~~~~~~~~~~~~" +
                 "\n~~~~~~~~~~~ SOYISIM ILE OGRETMEN ARAMA ~~~~~~~~~~~~" +
                 "\n    TCNO      ISIM      SOYISIM   D.YILI  BRANS");
 

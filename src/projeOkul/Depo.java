@@ -11,7 +11,7 @@ public class Depo {
         String tercih = "";
         do {
 
-            System.out.println("~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~" +
+            System.out.println("~~~~~~~~~~ CEVIK KOLEJI ~~~~~~~~~~" +
                     "\n~~~~~~~~~~~  ANA MENU  ~~~~~~~~~~~~" +
                     "\n\t1 - OKUL BILGILERINI GORUNTULE" +
                     "\n\t2 - OGRETMEN MENU" +
@@ -48,7 +48,7 @@ public class Depo {
 
     public static void okulBilgileriniYazdir() throws InterruptedException {
 
-        System.out.println("~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~" +
+        System.out.println("~~~~~~~~~~ CEVIK KOLEJI ~~~~~~~~~~" +
                 "\n\tAdres   : " + Okul.adres +
                 "\n\tTelefon : " + Okul.telefon);
 

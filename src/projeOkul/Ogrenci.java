@@ -24,7 +24,7 @@ public class Ogrenci {
 
         String tercih = "";
         do {
-            System.out.println("~~~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~~~" +
+            System.out.println("~~~~~~~~~~~~ CEVIK KOLEJI ~~~~~~~~~~~~" +
                     "\n~~~~~~~~~~~  OGRENCI MENU  ~~~~~~~~~~~~" +
                     "\n\t1 - OGRENCI LISTESI YAZDIR" +
                     "\n\t2 - SOYISIMDEN OGRENCI BULMA" +
@@ -118,7 +118,7 @@ public class Ogrenci {
         String istenilenSinif = scan.nextLine();
         System.out.print("aradiginiz ogrencinin subesini girin : ");
         String istenilenSube = scan.nextLine();
-        System.out.println("       ~~~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~~~" +
+        System.out.println("       ~~~~~~~~~~~~ CEVIK KOLEJI ~~~~~~~~~~~~" +
                 "\n      ~~~~~~~~~~~~ OGRENCI LISTESI ~~~~~~~~~~~~" +
                 "\n   TC NO      ISIM   SOYISIM   D.YILI  OKUL/NO  SINIF  SUBE");
         for (Map.Entry<String, String> w : myEntrySet
@@ -144,7 +144,7 @@ public class Ogrenci {
         Set<Map.Entry<String, String>> myEntrySet = ogrenciMap.entrySet();
         System.out.print("Aradiginiz Ogrencinin Soyismini Girin : ");
         String istenilenSoyisim = scan.nextLine();
-        System.out.println("       ~~~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~~~" +
+        System.out.println("       ~~~~~~~~~~~~ CEVIK KOLEJI ~~~~~~~~~~~~" +
                 "\n      ~~~~~~~~~~~~ OGRENCI LISTESI ~~~~~~~~~~~~" +
                 "\n   TC NO      ISIM   SOYISIM   D.YILI  OKUL/NO  SINIF  SUBE");
         for (Map.Entry<String, String> w : myEntrySet
@@ -173,7 +173,7 @@ public class Ogrenci {
         Set<Map.Entry<String, String>> myEntrySet = ogrenciMap.entrySet();
         //System.out.println(ogrenciMap);
 
-        System.out.println("       ~~~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~~~" +
+        System.out.println("       ~~~~~~~~~~~~ CEVIK KOLEJI ~~~~~~~~~~~~" +
                 "\n      ~~~~~~~~~~~~ OGRENCI LISTESI ~~~~~~~~~~~~" +
                 "\n   TC NO      ISIM   SOYISIM   D.YILI  OKUL/NO  SINIF  SUBE");
         for (Map.Entry<String, String> w : myEntrySet
