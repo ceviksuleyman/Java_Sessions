@@ -169,7 +169,7 @@ public class Ogretmen {
     public static void ogretmenListesiYazdirMethodu() throws InterruptedException { // ogretmenlistesi method
 
         Set<Map.Entry<String, String>> ogretmenEntrySet = ogretmenlerMap.entrySet();
-        System.out.println("~~~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~~~" +
+        System.out.println("~~~~~~~~~~~~ CEVIK KOLEJI ~~~~~~~~~~~~" +
                 "\n~~~~~~~~~~~  OGRETMEN LISTESI  ~~~~~~~~~~~~" +
                 "\n   TCNO      ISIM     SOYISIM    D.YILI  BRANS");
 
