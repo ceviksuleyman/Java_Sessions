@@ -109,7 +109,7 @@ public class Ogretmen {
 
     public static void branstanOgretmenBulma() throws InterruptedException {// branstan ogretmen bul
 
-        System.out.println("Aradiginiz Ogretmenin Bransini Giriniz");
+        System.out.print("Aradiginiz Ogretmenin Bransini Giriniz : ");
         String istenenBrans = scan.nextLine();
         Set<Map.Entry<String, String>> ogretmenEntrySet = ogretmenlerMap.entrySet();
         System.out.println("~~~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~~~" +
@@ -138,7 +138,7 @@ public class Ogretmen {
 
     public static void soyisimdenOgretmenBulma() throws InterruptedException { //soyisimden ogretmen bul
 
-        System.out.println("Aradiginiz Ogretmenin Soyismini Giriniz");
+        System.out.print("Aradiginiz Ogretmenin Soyismini Giriniz : ");
         String istenenSoyisim = scan.nextLine();
 
         Set<Map.Entry<String, String>> ogretmenEntrySet = ogretmenlerMap.entrySet();

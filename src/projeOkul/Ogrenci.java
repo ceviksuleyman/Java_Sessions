@@ -142,7 +142,7 @@ public class Ogrenci {
     public static void soyisimdenOgrenciBulma() throws InterruptedException {
 
         Set<Map.Entry<String, String>> myEntrySet = ogrenciMap.entrySet();
-        System.out.print("aradiginiz ogrencinin soyismini girin : ");
+        System.out.print("Aradiginiz Ogrencinin Soyismini Girin : ");
         String istenilenSoyisim = scan.nextLine();
         System.out.println("       ~~~~~~~~~~~~ YILDIZ KOLEJI ~~~~~~~~~~~~" +
                 "\n      ~~~~~~~~~~~~ OGRENCI LISTESI ~~~~~~~~~~~~" +
